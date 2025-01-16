@@ -1,0 +1,20 @@
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ddd; /* Adds a light gray border around table cells */
+    padding: 8px; /* Adds space inside each cell */
+    text-align: left; /* Aligns text to the left within each cell */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Adds a light background color to the header */
+    font-weight: bold; /* Makes header text bold */
+  }
+  
