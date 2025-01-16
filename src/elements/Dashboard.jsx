@@ -32,7 +32,7 @@ const chartData={
     labels: data.labels,
     datasets: [
         {
-          label: 'Dummy Data from JSONPlaceholderc (Line)',
+          label: 'Dummy Data (Line)',
           data: data.values,
           borderColor: 'rgba(75,192,192,1)',
           backgroundColor: 'rgba(75,192,192,0.2)',
@@ -45,7 +45,7 @@ const barChartData={
     labels: data.labels,
     datasets: [
         {
-          label: 'Dummy Data from JSONPlaceholderc (bar)',
+          label: 'Dummy Data (bar)',
           data: data.values,
           backgroundColor: 'rgba(75,192,192,0.5)',
         borderColor: 'rgba(75,192,192,1)',
